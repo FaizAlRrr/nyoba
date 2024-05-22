@@ -1,0 +1,104 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: helvetica;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: rgb(25, 166, 190);
+}
+
+nav {
+  background-color: burlywood;
+}
+
+header,
+nav,
+footer {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+aside {
+  margin: 10px 20px 10px 5px;
+  display: flex;
+  background-color: rgb(228, 231, 37);
+  height: 640px;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+}
+
+aside li {
+  padding: 15px;
+  list-style: none;
+}
+
+aside a {
+  text-decoration: none;
+  text-align: justify;
+  font-weight: 800;
+}
+
+section {
+  margin: 10px 5px 10px 150px;
+  display: flex;
+  height: 200px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+main p {
+  color: white;
+  font-weight: 700;
+}
+
+#a {
+  background-color: magenta;
+  text-align: justify;
+  padding: 5px;
+  text-align: center;
+}
+
+#b {
+  background-color: rgb(30, 72, 210);
+  text-align: justify;
+  padding: 5px;
+}
+
+#c h2 {
+  position: absolute;
+  left: 89%;
+  top: 100%;
+}
+
+#c {
+  background-color: red;
+  text-align: justify;
+  padding: 5px;
+}
+
+footer {
+  background-color: navy;
+}
